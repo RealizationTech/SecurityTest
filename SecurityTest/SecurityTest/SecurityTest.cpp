@@ -7,7 +7,8 @@ int main()
 {
 	int *p = nullptr;
 	int sum = 10 + *p;
-    std::cout << "Hello World!\n";
+
+    std::cout << "Hello World!\n"<< *p;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
